@@ -1,3 +1,7 @@
+Step 1 − Move n-1 disks from, from_pole to, aux
+Step 2 − Move nth disk from, from_pole to, to_pole
+Step 3 − Move n-1 disks from, aux to, to_pole
+
 def move_disk(from_pole, to_pole):
     print('Moving disk from', from_pole, ' to ', to_pole)
 
